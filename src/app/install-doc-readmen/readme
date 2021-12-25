@@ -1,0 +1,18 @@
+git clone https://github.com/darbyluv2code/fullstack-angular-and-springboot.git
+
+npm install 
+ ng serve -o  
+ng generate component common/product  
+ng generate class common/product    
+ng generate service services/product   
+npm install bootstrap 
+npm audit fix --force 
+ npm install @fortawesome/fontawesome-free
+
+ *********Add css globarly in anuglar.json******
+ "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+            ],
+            "scripts": []
